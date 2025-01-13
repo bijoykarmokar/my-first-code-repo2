@@ -6,4 +6,22 @@
 .calender-parent{
     display: grid;
     grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(7,50px);
+    gap: 10px;
+}
+.calender-chile, .days{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 10px;
+    
+}
+
+.days{
+    background-color: bisque;
+    font-size: 15px;
+    height: 40px;
+
 }
